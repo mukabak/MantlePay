@@ -1,0 +1,16 @@
+{
+  "name": "mantlepay",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "STEEZY",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "dapp",
+    "contract"
+  ],
+  "scripts": {
+    "dev": "yarn --cwd dapp dev",
+    "compile": "yarn --cwd contract compile"
+  }
+}

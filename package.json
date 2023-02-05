@@ -12,9 +12,16 @@
   "scripts": {
     "dev": "yarn --cwd dapp dev",
     "compile": "yarn --cwd contract compile",
+    "lint": "cd ./dapp && yarn lint:strict",
+    "typecheck": "cd ./dapp && yarn typecheck",
+    "format:check": "cd ./dapp && yarn format:check",
+    "test": "yarn test-dapp && yarn test-contract",
+    "test-dapp": "cd ./dapp && yarn test",
+    "test-contract": "cd ./contract && yarn test",
     "prepare": "cd .. && husky install dapp/.husky"
   },
   "devDependencies": {
-    "husky": "^8.0.3"
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.0"
   }
 }

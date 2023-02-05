@@ -10,6 +10,11 @@
 
 MantlePay is a blockchain-based platform that enables the creation of invoices and secure payments on the Ethereum network through the Mantle network. With MantlePay, sending and receiving payments become more convenient and efficient.
 
+## Project Structure
+
+- `dapp` - MantlePay Next.js front-end application to interact with the smart-contract.
+- `contract` - MantlePay smart-contract built with Solidity
+
 ## Features
 
 - Create invoices with specified amount, comment, payment wallet (optional), and invoice recipient (optional).

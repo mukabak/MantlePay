@@ -12,12 +12,12 @@
   "scripts": {
     "dev": "yarn --cwd dapp dev",
     "compile": "yarn --cwd contract compile",
-    "lint": "cd ./dapp && yarn lint:strict",
-    "typecheck": "cd ./dapp && yarn typecheck",
-    "format:check": "cd ./dapp && yarn format:check",
+    "lint": "yarn --cwd dapp lint:strict",
+    "typecheck": "yarn --cwd dapp typecheck",
+    "format:check": "yarn --cwd dapp format:check",
     "test": "yarn test-dapp && yarn test-contract",
-    "test-dapp": "cd ./dapp && yarn test",
-    "test-contract": "cd ./contract && yarn test",
+    "test-dapp": "yarn --cwd dapp test",
+    "test-contract": "yarn --cwd contract test",
     "prepare": "cd .. && husky install dapp/.husky"
   },
   "devDependencies": {

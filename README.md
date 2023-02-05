@@ -24,11 +24,11 @@ MantlePay is a blockchain-based platform that enables the creation of invoices a
 
 ## Technical details
 
-MantlePay consists of two main components: a Solidity smart contract and a dapp that provides a user-friendly interface for interacting with the contract. The app operates on the <a target="_blank" href="https://www.mantle.xyz/">Mantle</a> network, which allows for fast, cheap and secure blockchain transactions on the Ethereum network.
+MantlePay consists of two main components: a Solidity smart contract and a dapp that provides a user-friendly interface for interacting with the contract. The app operates on the <a target="_blank" href="https://www.mantle.xyz/">Mantle</a> network, which allows for fast, cheap and secure blockchain transactions on the Ethereum blockchain.
 
 ## How to use MantlePay
 
-1. Install and set up a wallet that supports the Ethereum network and the Mantle network.
+1. Install and set up a wallet that supports the Ethereum and Mantle networks.
 2. Access the MantlePay dapp through your wallet or a web browser.
 3. Create an invoice by specifying the amount, comment, payment wallet (optional), and invoice recipient (optional).
 4. Forward the payment link for the created invoice to the desired recipient.

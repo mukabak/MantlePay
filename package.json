@@ -11,6 +11,10 @@
   ],
   "scripts": {
     "dev": "yarn --cwd dapp dev",
-    "compile": "yarn --cwd contract compile"
+    "compile": "yarn --cwd contract compile",
+    "prepare": "cd .. && husky install dapp/.husky"
+  },
+  "devDependencies": {
+    "husky": "^8.0.3"
   }
 }
